@@ -30,4 +30,13 @@
 		width: 40rem;
 		border-radius: 20rem;
 	}
+
+	h1 {
+		text-align: left;
+	}
+
+	p {
+		margin: 1rem 1rem 1rem 2rem;
+		text-align: left;
+	}
 </style>
