@@ -24,7 +24,7 @@
 	div.navWrapper {
 		display: flex;
 		justify-content: end;
-		background: var(--primary-dark);
+		background: var(--primary-color);
 		border-radius: 1rem;
 	}
 	a {

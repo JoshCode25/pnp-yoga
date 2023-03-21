@@ -7,11 +7,11 @@
 	<div>
 		<h1>Experiencing God's Peace</h1>
 		<p>
-			by encountering His presence through movement, breath, & meditation on His precious Living
+			by encountering His presence through movement, breath &#43; meditation on His precious, living
 			Word.
 		</p>
 		<p>
-			Would you like to schedule a faith baed yoga Instructor? Wondering how <a href="/writings"
+			Would you like to schedule a faith based yoga Instructor? Wondering how <a href="/writings"
 				>faith &#43; movement</a
 			> intersect?
 		</p>

@@ -75,16 +75,15 @@ button:hover {
 .navWrapper a {
 	display: inline-block;
 	color: var(--primary-light);
-	background: var(--primary-dark);
 	padding: 1rem 2rem;
 	font-size: 2rem;
 	font-family: Arial;
-	font-weight: bold;
+	font-weight: 700;
 	border-bottom: 0.5rem solid transparent;
 	transition: all 0.2s;
 }
 .navWrapper a:hover {
-	color: var(--primary-color);
-	border-color: var(--primary-color);
+	color: var(--primary-dark);
+	border-color: var(--primary-dark);
 	cursor: pointer;
 }
