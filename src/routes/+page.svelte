@@ -1,5 +1,12 @@
 <script lang="ts">
+	import SketchCircle from '$lib/components/SketchCircle.svelte';
 	import lizard from '$lib/images/lizard.jpg';
+
+	export let displayCircle = false;
+
+	function toggleDisplayCircle(): void {
+		displayCircle = !displayCircle;
+	}
 </script>
 
 <div class="flexWrapper">
@@ -16,6 +23,10 @@
 			> intersect?
 		</p>
 		<p>Curious about <a href="/about">my journey</a>?</p>
+		<button on:click={toggleDisplayCircle}>showCircle?</button>
+		{#if displayCircle}
+			<SketchCircle />
+		{/if}
 	</div>
 </div>
 
