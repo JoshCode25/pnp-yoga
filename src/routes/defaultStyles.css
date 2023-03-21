@@ -1,12 +1,11 @@
 html {
-	--primary-dark: rgba(54, 69, 79, 1); /*charcoal*/
-	--primary-light: rgba(243, 247, 233, 1); /*ivory*/
-	--primary-color: rgba(204, 164, 59, 1); /*satin sheen gold*/
-	--secondary-color: rgba(126, 163, 204); /*vista blue*/
-
-	--primary-font: Times New Roman;
+	--primary-dark: rgba(60, 70, 83, 1); /*charcoal*/
+	--primary-light: rgba(255, 252, 247, 1); /*baby-powder*/
+	--primary-color: rgba(105, 133, 106, 1); /*reseda-green*/
+	--secondary-color: rgba(180, 142, 174, 1); /*lilac*/
 
 	font-size: 10px;
+	font-family: Arial;
 	background: var(--primary-light);
 }
 
@@ -23,14 +22,22 @@ body {
 }
 
 a {
-	color: black;
+	color: var(--primary-dark);
 	text-decoration: none;
 	border-bottom: 0.2rem solid transparent;
 	transition: border-color 0.4s;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
 a:visited {
-	color: black;
+	color: var(--primary-dark);
 }
 
 li {
@@ -69,8 +76,9 @@ button:hover {
 	display: inline-block;
 	color: var(--primary-light);
 	background: var(--primary-dark);
-	padding: 2rem;
-	font-size: 2.5rem;
+	padding: 1rem 2rem;
+	font-size: 2rem;
+	font-family: Arial;
 	font-weight: bold;
 	border-bottom: 0.5rem solid transparent;
 	transition: all 0.2s;
