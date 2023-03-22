@@ -1,10 +1,25 @@
+<script lang="ts">
+	import SketchCircle from '$lib/components/SketchCircle.svelte';
+
+	interface navType {
+		path: string;
+		name: string;
+	}
+
+	let navArray: navType[] = [
+		{ path: '/', name: 'home' },
+		{ path: '/about', name: 'about' },
+		{ path: '/contact', name: 'contact' },
+		{ path: '/writings', name: 'writings' },
+	];
+</script>
+
 <header>
 	<a class="logoAnchor" href="/">peace &#43; presence yoga</a>
 	<div class="navWrapper">
-		<a href="/">home</a>
-		<a href="/about">about</a>
-		<a href="/contact">contact</a>
-		<a href="/writings">writings</a>
+		{#each navArray as { path, name }}
+			<SketchCircle {path} {name} />
+		{/each}
 	</div>
 </header>
 
