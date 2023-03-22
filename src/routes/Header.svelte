@@ -1,12 +1,12 @@
 <script lang="ts">
 	import SketchCircle from '$lib/components/SketchCircle.svelte';
 
-	interface navType {
+	interface NavType {
 		path: string;
 		name: string;
 	}
 
-	let navArray: navType[] = [
+	let navArray: NavType[] = [
 		{ path: '/', name: 'home' },
 		{ path: '/about', name: 'about' },
 		{ path: '/contact', name: 'contact' },
