@@ -3,7 +3,17 @@
 	import reverseWarrior from '$lib/images/reverse-warrior.jpg';
 </script>
 
-<BlogPreview />
-<BlogPreview thumbnailImage={reverseWarrior} />
-<BlogPreview />
-<BlogPreview />
+<div class="flexWrapper">
+	<BlogPreview />
+	<BlogPreview thumbnailImage={reverseWarrior} />
+	<BlogPreview />
+	<BlogPreview />
+</div>
+
+<style>
+	.flexWrapper {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+</style>

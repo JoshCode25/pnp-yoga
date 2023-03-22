@@ -15,6 +15,9 @@
 </div>
 
 <style>
+	div {
+		width: 40rem;
+	}
 	.flexWrapper {
 		display: flex;
 		gap: 2rem;
