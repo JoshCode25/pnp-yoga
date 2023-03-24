@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './defaultStyles.css';
 	import './defaultAnimations.css';
+	import './containerQueries.css';
 	import Header from './Header.svelte';
 	import oliveBranch from '$lib/images/sample-olive-branch.png';
 </script>

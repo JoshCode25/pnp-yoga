@@ -1,0 +1,10 @@
+@container homeText (max-width: 76rem) {
+	.flexWrapper {
+		flex-flow: row wrap;
+	}
+
+	img {
+		width: 30rem;
+		border-radius: 15rem;
+	}
+}
