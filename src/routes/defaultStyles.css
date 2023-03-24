@@ -26,6 +26,10 @@ a {
 	text-decoration: none;
 	border-bottom: 0.2rem solid transparent;
 	transition: border-color 0.4s;
+
+	&:visited {
+		color: var(--primary-dark);
+	}
 }
 
 p,
@@ -37,8 +41,7 @@ h5,
 h6,
 span,
 label,
-button,
-a:visited {
+button {
 	color: var(--primary-dark);
 }
 
@@ -48,8 +51,8 @@ li {
 }
 
 h1 {
-	margin: 10px;
-	font-size: 4rem;
+	margin: 1rem;
+	font-size: 3rem;
 }
 h2 {
 	font-size: 3rem;
@@ -68,10 +71,10 @@ button:hover {
 	font: 2rem var(--primary-font);
 	border: 0 none;
 	background: none;
-}
 
-.buttonReset:hover {
-	opacity: 1;
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .navWrapper a {

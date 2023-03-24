@@ -67,7 +67,7 @@
 	</fieldset>
 </form>
 
-<style>
+<style lang="postcss">
 	fieldset {
 		max-width: 45rem;
 		margin: 2rem auto;
@@ -111,9 +111,10 @@
 		background: var(--primary-light);
 		border: 0.2rem solid var(--primary-color);
 		border-radius: 1rem;
-	}
-	button:hover {
-		opacity: 0.8;
+
+		&:hover {
+			opacity: 0.8;
+		}
 	}
 
 	.leftAlign {
@@ -140,27 +141,40 @@
 		gap: 2rem;
 	}
 
-	.radioWrapper label {
-		padding-left: 0.5rem;
-	}
-	.radioWrapper label:hover,
-	.radioWrapper input:hover {
-		cursor: pointer;
-	}
-	.radioWrapper input:checked {
-		accent-color: var(--primary-color);
+	.radioWrapper {
+		& label {
+			padding-left: 0.5rem;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		& input {
+			&:hover {
+				cursor: pointer;
+			}
+			&:checked {
+				accent-color: var(--primary-color);
+			}
+		}
 	}
 
-	.checkWrapper label {
-		padding-left: 1rem;
-	}
-	.checkWrapper input {
-		width: 1.5rem;
-		height: 1.5rem;
-		accent-color: var(--primary-color);
-	}
-	.checkWrapper label:hover,
-	.checkWrapper input:hover {
-		cursor: pointer;
+	.checkWrapper {
+		& label {
+			padding-left: 1rem;
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		& input {
+			width: 1.5rem;
+			height: 1.5rem;
+			accent-color: var(--primary-color);
+			&:hover {
+				cursor: pointer;
+			}
+		}
 	}
 </style>

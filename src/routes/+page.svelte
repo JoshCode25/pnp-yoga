@@ -4,7 +4,7 @@
 
 <div class="flexWrapper">
 	<img src={lizard} alt="lizard yoga pose" />
-	<div>
+	<div class="asideWrapper">
 		<h1>Experiencing God's Peace</h1>
 		<p>
 			by encountering His presence through movement, breath &#43; meditation on His precious, living
@@ -22,10 +22,15 @@
 <style>
 	.flexWrapper {
 		display: flex;
+		justify-content: center;
+		/* flex-flow: row wrap; */
 		gap: 2rem;
 		margin: 2rem;
 	}
 
+	.asideWrapper {
+		max-width: 50rem;
+	}
 	img {
 		width: 40rem;
 		border-radius: 20rem;

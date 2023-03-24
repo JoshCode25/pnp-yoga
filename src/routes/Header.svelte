@@ -23,7 +23,7 @@
 	</div>
 </header>
 
-<style>
+<style lang="postcss">
 	header {
 		width: 100%;
 	}
@@ -32,13 +32,15 @@
 		margin: 1rem;
 		font-size: 4rem;
 		font-family: Arial, Helvetica, sans-serif;
+
+		&:visited {
+			color: var(--primary-dark);
+		}
 	}
-	.logoAnchor:visited {
-		color: var(--primary-dark);
-	}
+
 	div.navWrapper {
 		display: flex;
-		justify-content: end;
+		justify-content: flex-end;
 		background: var(--primary-color);
 		border-radius: 1rem;
 	}
