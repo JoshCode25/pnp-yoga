@@ -28,7 +28,9 @@
 		<p>Provide a brief message about the class you'd like to book:</p>
 		<textarea id="message" name="message" />
 	</div>
+
 	<div class="checkWrapper">
+		<p>Select as many as apply:</p>
 		<div class="gridWrapper">
 			<div>
 				<input type="checkbox" id="wellness" name="wellness" value="true" />
@@ -81,12 +83,12 @@
 	}
 	p {
 		text-align: left;
-		margin-bottom: 1rem;
 	}
 
 	textarea {
-		width: 40rem;
+		width: 100%;
 		height: 10rem;
+		margin-top: 1rem;
 	}
 
 	.leftAlign {
