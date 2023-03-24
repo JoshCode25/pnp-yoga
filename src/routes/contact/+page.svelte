@@ -101,6 +101,7 @@
 		height: 10rem;
 		margin-top: 1rem;
 		padding: 0.5rem;
+		border-radius: 0.5rem;
 	}
 
 	button {
@@ -125,6 +126,7 @@
 		width: 20rem;
 		margin-left: 1rem;
 		text-indent: 0.5rem;
+		border-radius: 0.5rem;
 	}
 
 	.gridWrapper {
@@ -145,12 +147,17 @@
 	.radioWrapper input:hover {
 		cursor: pointer;
 	}
+	.radioWrapper input:checked {
+		accent-color: var(--primary-color);
+	}
 
 	.checkWrapper label {
 		padding-left: 1rem;
 	}
-	.checkWrapper input:checked {
-		color: var(--primary-color);
+	.checkWrapper input {
+		width: 1.5rem;
+		height: 1.5rem;
+		accent-color: var(--primary-color);
 	}
 	.checkWrapper label:hover,
 	.checkWrapper input:hover {
