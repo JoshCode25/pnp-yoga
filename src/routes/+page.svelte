@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import lizard from '$lib/images/lizard.jpg';
 </script>
 
@@ -16,7 +17,7 @@
 					>faith &#43; movement</a
 				> intersect?
 			</p>
-			<p>Curious about <a href="/about">my journey</a>?</p>
+			<p>Curious about <a href={`${base}/about`}>my journey</a>?</p>
 		</div>
 	</div>
 </div>

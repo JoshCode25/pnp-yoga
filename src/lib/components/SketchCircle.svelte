@@ -2,6 +2,7 @@
 	import { draw } from 'svelte/transition';
 	import { quintInOut } from 'svelte/easing';
 	import { navigating } from '$app/stores';
+	import { base } from '$app/paths';
 
 	export let path = '/';
 	export let name = 'home';
@@ -26,7 +27,7 @@
 	$: if ($navigating) hideCircle();
 </script>
 
-<a on:mouseenter={showCircle} on:mouseleave={hideCircle} href={path}>
+<a on:mouseenter={showCircle} on:mouseleave={hideCircle} href={base + path}>
 	<div class="flexWrapper">
 		{name}
 		{#if displayCircle}
