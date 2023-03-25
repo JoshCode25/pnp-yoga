@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import SketchCircle from '$lib/components/SketchCircle.svelte';
 
 	interface NavType {
@@ -15,7 +16,7 @@
 </script>
 
 <header>
-	<a class="logoAnchor" href="/">peace &#43; presence yoga</a>
+	<a class="logoAnchor" href={`${base}/`}>peace &#43; presence yoga</a>
 	<div class="navWrapper">
 		{#each navArray as { path, name }}
 			<SketchCircle {path} {name} />
