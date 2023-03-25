@@ -25,6 +25,7 @@
 	.homeTextContainer {
 		container: homeText / inline-size;
 	}
+
 	.flexWrapper {
 		display: flex;
 		justify-content: center;
