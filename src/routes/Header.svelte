@@ -11,7 +11,6 @@
 		{ path: '/', name: 'home' },
 		{ path: '/about', name: 'about' },
 		{ path: '/contact', name: 'contact' },
-		{ path: '/writings', name: 'writings' },
 	];
 </script>
 

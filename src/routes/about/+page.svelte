@@ -1,5 +1,5 @@
 <script lang="ts">
-	import tree from '$lib/images/tree.jpg';
+	import tree from '$lib/images/tree300.jpg';
 </script>
 
 <h1>About Me</h1>
@@ -15,7 +15,6 @@
 
 <style>
 	img {
-		width: 30rem;
 		border-radius: 3rem;
 	}
 
@@ -29,5 +28,11 @@
 	p {
 		text-align: left;
 		margin: 1rem;
+	}
+
+	@media (max-width: 700px) {
+		.flexWrapper {
+			display: block;
+		}
 	}
 </style>

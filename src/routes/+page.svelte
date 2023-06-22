@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import lizard from '$lib/images/lizard.jpg';
+	import lizard from '$lib/images/lizard400.jpg';
 </script>
 
 <div class="homeTextContainer">
@@ -38,7 +38,6 @@
 		max-width: 50rem;
 	}
 	img {
-		width: 40rem;
 		border-radius: 20rem;
 	}
 
